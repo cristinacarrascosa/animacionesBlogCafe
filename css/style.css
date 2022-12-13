@@ -243,7 +243,7 @@ img {
 }
 
 
-
+/** Animaciones **/
 
 .animate__fadeOutDown {
     animation-duration: 5s;
@@ -257,3 +257,16 @@ img {
 .animate__rubberBand:hover {
     animation-delay: 1s;
 }
+
+
+
+
+
+
+/*https://animista.net/play/text/shadow-drop para próximas animaciones*/
+
+.aparece{
+    opacity: 0;
+    transition: all 0.5s;
+}
+

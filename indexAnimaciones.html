@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BlogDeCafé</title>
+    <title>BlogDeCaféAnimado</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,12 +47,12 @@
 
     </header>
 
-    <div class="contenedor contenido-principal">
-        <main class="blog">
-            <h3>Nuestro Blog</h3>
+    <div class="contenedor contenido-principal ">
+        <main class="blog ">
+            <h3 class="aparece">Nuestro Blog</h3>
 
-            <article class="entrada animate__animated animate__rubberBand">
-                <div class="entrada__imagen ">
+            <article class="entrada aparece">
+                <div class="entrada__imagen">
                     <img src="img/blog1.jpg" alt="Imagen entrada blog">
                 </div>
 
@@ -63,7 +63,7 @@
                 </div>
 
             </article>
-            <article class="entrada">
+            <article class="entrada aparece">
                 <div class="entrada__imagen">
                     <img src="img/blog2.jpg" alt="Imagen entrada blog">
                 </div>
@@ -75,7 +75,7 @@
                 </div>
 
             </article>
-            <article class="entrada">
+            <article class="entrada aparece">
                 <div class="entrada__imagen">
                     <img src="img/blog3.jpg" alt="Imagen entrada blog">
                 </div>
@@ -90,9 +90,9 @@
 
         </main>
         <aside class="sidebar">
-            <h3 class="centrar-texto">Nuestros Cursos y Talleres</h3>
+            <h3 class="centrar-texto aparece">Nuestros Cursos y Talleres</h3>
 
-            <ul class="cursos no-padding">
+            <ul class="cursos no-padding aparece">
                 <li class="widget-curso">
                     <h4 class="no-margin">Técnicas de Extracción de Café</h4>
                     <p class="widget-curso__label">Precio:
@@ -115,6 +115,7 @@
                     <p class="widget-curso__label">Modalidad:
                         <span class="widget-curso__info">Online</span>
                     </p>
+                    <p class="shake-slow animate__animated animate__fadeOutDown">¡No te piedas las rebajas!</p>
                     <a href="cursos.html" class="boton boton--secundario"> MÁS INFORMACIÓN</a>
                 </li>
             </ul>
@@ -138,6 +139,7 @@
         </div>
 
     </footer>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
