@@ -249,14 +249,14 @@ img {
     animation-duration: 5s;
 }
 .animate__zoomInDown {
-    animation-delay: 3s;
-}
-.animate__fadeInTopLeft {
     animation-delay: 2s;
 }
-.animate__rubberBand:hover {
-    animation-delay: 1s;
+.animate__fadeInTopLeft {
+    animation-delay: 3s;
 }
+/* .animate__rubberBand:hover {
+    animation-delay: 1s;
+} */
 
 
 
@@ -308,21 +308,21 @@ img {
   .arrowSliding {
     position: absolute;
     
-            animation: slide 4s linear  reverse infinite;
+            animation: slide 4s linear reverse infinite;
     
   }
   
   .delay1 {
     
-      animation-delay: 1s;
+      animation-delay: 5s;
   }
   .delay2 {
    
-      animation-delay: 2s;
+      animation-delay: 6s;
   }
   .delay3 {
    
-      animation-delay: 3s;
+      animation-delay: 7s;
   }
   
   
