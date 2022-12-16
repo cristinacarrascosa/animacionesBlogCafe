@@ -269,4 +269,69 @@ img {
     opacity: 0;
     transition: all 0.5s;
 }
+/* para que aparezcan desde el lado*/
+.mostrarArriba {
+    animation: mostrarArriba 1s;
+}
+
+@keyframes mostrarArriba {
+    0% {
+        opacity: 0;
+        transform: translateX(-60px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Flecha para que se continúe navegando*/
+
+#arrowAnim {
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .arrow {
+    width: 5vw;
+    height: 5vw;
+    border: 2.5vw solid;
+    border-color:  #6c3b2a  transparent transparent #ffc600 ;
+    transform: rotate(-135deg);
+  }
+  
+  
+  .arrowSliding {
+    position: absolute;
+    
+            animation: slide 4s linear  reverse infinite;
+    
+  }
+  
+  .delay1 {
+    
+      animation-delay: 1s;
+  }
+  .delay2 {
+   
+      animation-delay: 2s;
+  }
+  .delay3 {
+   
+      animation-delay: 3s;
+  }
+  
+  
+  @keyframes slide {
+      0% { opacity:0; transform: translateY(15vw); }	
+     20% { opacity:1; transform: translateY(9vw); }	
+     80% { opacity:1; transform: translateY(-9vw); }	
+    100% { opacity:0; transform: translateY(-15vw); }	
+  }
+
+
 
